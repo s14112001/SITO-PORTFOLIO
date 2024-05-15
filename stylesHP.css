@@ -1,0 +1,90 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #ffffff; /* Beige chiaro */
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #5c5c5c; /* Marrone scuro */
+    color: #fff;
+    font-size: 32px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-summary {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f5f5f5; /* Grigio chiaro */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.movie-summary h2 {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    color: #4d2600; /* Marrone */
+}
+
+.movie-summary p {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.timeline {
+    margin-top: 20px;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f5f5f5; /* Grigio chiaro */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-img {
+    flex: 1;
+    margin-right: 20px; /* Aggiunto margine a destra per spaziatura */
+}
+
+.event-img img {
+    max-width: 120px; /* Larghezza massima leggermente aumentata */
+    height: auto;
+    border-radius: 5px;
+}
+
+.event-description {
+    flex: 3;
+}
+
+.event-description h3 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    color: #4d2600; /* Marrone */
+}
+
+.event-description p {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
